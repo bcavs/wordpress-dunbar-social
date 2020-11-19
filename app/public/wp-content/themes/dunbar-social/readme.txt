@@ -1,4 +1,4 @@
-=== Twenty Twenty ===
+=== Dunbar Social ===
 Contributors: Ben Cavenagh
 Tested up to: 5.5
 Stable tag: 1.5
