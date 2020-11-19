@@ -1,0 +1,118 @@
+/* Stylesheet for custom styles written by Dunbar developer (Ben) */
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+p {
+  font-family: "Arvo", serif;
+}
+
+.proxima-nova-thin {
+  font-family: "Proxima Nova Thin", sans-serif;
+}
+.proxima-nova {
+  font-family: "Proxima Nova", sans-serif;
+}
+.proxima-nova-bold {
+  font-family: "Proxima Nova Bold", sans-serif;
+}
+.proxima-nova-extra-bold {
+  font-family: "Proxima Nova Extra Bolder", sans-serif;
+}
+.proxima-nova-black {
+  font-family: "Proxima Nova Black", sans-serif;
+}
+
+.aeonik-air-italic {
+  font-family: "Aeonik Air Italics", serif;
+}
+.aeonik-black-italic {
+  font-family: "Aeonik Black Italics", serif;
+}
+.aeonik-bold-italic {
+  font-family: "Aeonik Bold Italics", serif;
+}
+.aeonik-light-italic {
+  font-family: "Aeonik Light Italics", serif;
+}
+.aeonik-medium-italic {
+  font-family: "Aeonik Medium Italics", serif;
+}
+.aeonik-thin-italic {
+  font-family: "Aeonik Thin Italics", serif;
+}
+.aeonik-italic {
+  font-family: "Aeonik Italics", serif;
+}
+.aeonik {
+  font-family: "Aeonik", serif;
+}
+.aeonik-air {
+  font-family: "Aeonik Aire", serif;
+}
+.aeonik-black {
+  font-family: "Aeonik Black", serif;
+}
+.aeonik-bold {
+  font-family: "Aeonik Bold", serif;
+}
+.aeonik-light {
+  font-family: "Aeonik Light", serif;
+}
+.aeonik-medium {
+  font-family: "Aeonik Medium", serif;
+}
+.aeonik-thin {
+  font-family: "Aeonik Thin", serif;
+}
+
+.aeonik-bold {
+  font-family: "Arvo Bold", serif;
+}
+.aeonik-bold-italic {
+  font-family: "Arvo Bold Italic", serif;
+}
+.arvo-italic {
+  font-family: "Arvo Italic", serif;
+}
+.arvo {
+  font-family: "Arvo", serif;
+}
+
+/* HEADER */
+#logo-header {
+  position: absolute;
+  width: 100%;
+  height: 75px;
+  /* background-color: rebeccapurple; */
+  padding: 20px 25px;
+  z-index: 999;
+}
+#logo-header img {
+  width: 175px;
+}
+
+#counter .elementor-counter span {
+  font-family: "Arvo Bold", sans-serif;
+}
+.lp-hero-header {
+  margin-bottom: 0 !important;
+}
+.pre-launch-form-email {
+  #forminator-field-email-1 {
+    border-radius: 7px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+#logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: red;
+}
