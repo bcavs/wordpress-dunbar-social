@@ -11,8 +11,8 @@ function dunbar_register_styles() {
 
 	wp_enqueue_style( 'dunbar-style', get_template_directory_uri() . '/styles/general.css', array(), $theme_version );
 	wp_enqueue_style( 'proxima-nova', get_template_directory_uri() . '/assets/fonts/proxima-nova/stylesheet.css', array(), $theme_version );
-	wp_enqueue_style( 'proxima-nova', get_template_directory_uri() . '/assets/fonts/aeonik/stylesheet.css', array(), $theme_version );
-	wp_enqueue_style( 'proxima-nova', get_template_directory_uri() . '/assets/fonts/arvo/stylesheet.css', array(), $theme_version );
+	wp_enqueue_style( 'aeonik', get_template_directory_uri() . '/assets/fonts/aeonik/stylesheet.css', array(), $theme_version );
+	wp_enqueue_style( 'arvo', get_template_directory_uri() . '/assets/fonts/arvo/stylesheet.css', array(), $theme_version );
 }
 
 add_action( 'wp_enqueue_scripts', 'dunbar_register_styles' );

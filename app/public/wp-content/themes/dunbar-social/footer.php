@@ -12,27 +12,22 @@
  */
 
 ?>
-			<footer id="site-footer" role="contentinfo" class="header-footer-group">
-
-				<div class="section-inner">
-
-					<div class="footer-credits">
-
-						<p class="footer-copyright">&copy;
-							<?php
-							echo date_i18n(
-								/* translators: Copyright date format, see https://www.php.net/date */
-								_x( 'Y', 'copyright date format', 'twentytwenty' )
-							);
-							?>
-							<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a>
-						</p><!-- .footer-copyright -->
-
-					</div><!-- .footer-credits -->
-
-				</div><!-- .section-inner -->
-
-			</footer><!-- #site-footer -->
+		<footer id="dunbar-footer">
+			<hr class="footer-hr"/>
+			<div class="footer-copyright">
+				<div class="icon">
+					<img src="<?php echo get_template_directory_uri() ?>/assets/images/icon.png" />
+				</div>
+				<p>
+					<a href="mailto:info@dunbarsocial.com">info@dunbarsocial.com</a>
+				</p>
+				<p>
+					&copy;
+					<?php echo date("Y");?>
+					Dunbar Social
+				</p>
+			</div>
+		</footer>
 
 		<?php wp_footer(); ?>
 

@@ -33,7 +33,6 @@
 		<header id="logo-header" class="header-footer-group" role="banner">
 
 			<div class="logo">
-				<!-- <p>Logo</p> -->
 				<img src="<?php echo get_template_directory_uri() ?>/assets/images/logo-white-font.png" />
 			</div>
 
